@@ -225,11 +225,11 @@ class crack:
                                                
 [1;97m[[1;92m••[1;97m] Author  : Fahim Ahmed (強元明)
 [1;97m[[1;92m••[1;97m] Version : 1.0
-[1;97m[[1;92m••[1;97m] Team     : Team Legion 
+[1;97m[[1;92m••[1;97m] Team    : Team Legion 
 [1;97m[[1;92m••[1;97m] GitHub  : https://github.com/Fahim-XD
 
         """)
-		self.jalan(f"[!] Welcome {self.nama} Selamat Menggunakan\n")
+		self.jalan(f"[!] Welcome {self.nama} Happy Using\n")
 		print('[1]. Crack ID From Public/Friend\n[2]. Crack ID From Followers\n[3]. Check Crack Results\n[4]. Setting Useragent\n[5]. Logout Script\n[6]. Report Bugs or Errors')
 		print(f'+'+'-'*45+'+\n')
 		pil=input('[+] Select: ')
