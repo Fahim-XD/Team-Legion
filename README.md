@@ -9,7 +9,7 @@ Author :
     
 ```
 ```
-#### ⇨  Thanks To Help • Tasneem Afnan Tabassum ❤️ ####
+ ⇨  Thanks To Help • Tasneem Afnan Tabassum ❤️ 
 ```
 #### ⇨  Feature Login
 
@@ -45,7 +45,7 @@ $ pip install requests bs4
 
 $ rm -rf fahim
 
-$ git clone https://github.com/Fahim-XD/fahim
+$ git clone https://github.com/Fahim-XD/Team-Legion
 
 ```
 
@@ -53,8 +53,8 @@ $ git clone https://github.com/Fahim-XD/fahim
 
 ```
 
-$ cd fahim    
+$ cd Team-Legion    
 
-$ python Fahim
+$ python Legion
 
 ```
