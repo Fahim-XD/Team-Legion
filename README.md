@@ -43,7 +43,7 @@ $ pkg install git
 
 $ pip install requests bs4
 
-$ rm -rf fahim
+$ rm -rf Team-Legion 
 
 $ git clone https://github.com/Fahim-XD/Team-Legion
 
