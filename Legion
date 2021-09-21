@@ -243,7 +243,7 @@ class crack:
 					self.menu()
 				else:pass
 			except:jumlah=1
-			print("\nKetik 'me' Crack Your Account Friend List")
+			print("\nType 'me' To Dump From Friendlist")
 			for j in range(jumlah):
 				ha+=1
 				target=input(f"[+] Masukan ID Target Ke {ha}: ").replace("'me'","me")
