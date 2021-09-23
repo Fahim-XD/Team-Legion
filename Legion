@@ -13,7 +13,7 @@ mb="https://mbasic.facebook.com"
 def login():
 	os.system("clear")
 	print("""
-	 PLEASE LOGIN TO CONTINUE TO SCRIPT
+	 \033[0;96m PLEASE LOGIN TO CONTINUE TO SCRIPT
 	""")
 	print("[1]. Login with Facebook Accesstoken\n[2]. How to Get Accesstoken\n")
 	pil=input("[!] Choose Login Method: ")
