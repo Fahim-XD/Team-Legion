@@ -324,13 +324,13 @@ class crack:
 			exit('\nBerhasil Logout Dan Hapus Akun')
 		elif(pil in ("r","R")):
 			print("\n[√] Menuju WhatsApp Author....\n[!] Klik Buka Dengan WhatsApp")
-			os.system("xdg-open https://wa.me/6283870396203")
+			os.system("xdg-open https://wa.me/0188020192")
 
 if __name__=="__main__":
 	try:
 		ua=open("ua","r").read()
 	except FileNotFoundError:
-		print("[!] Useragent Not Available")
+		print\033[1;91m("[!] Useragent Not Available")
 		tll=input("[+] Please Enter Useragent: ")
 		open("ua","a").write(tll)
 		print("[√] Added Successfully\nGoing To Tools")
