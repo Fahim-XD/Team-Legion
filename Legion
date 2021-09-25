@@ -55,7 +55,7 @@ def logika():
 		time.sleep(1.5)
 		crack(token,nama).menu()
 	except FileNotFoundError:
-		print(\033[1;96m"[!] You are not logged in. Please login first [!]")
+		print("[!] You are not logged in. Please login first [!]")
 		time.sleep(2)
 		login()
 	except KeyError:
