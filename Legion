@@ -330,7 +330,7 @@ if __name__=="__main__":
 	try:
 		ua=open("ua","r").read()
 	except FileNotFoundError:
-		print\033[1;91m("[!] Useragent Not Available")
+		print \033[1;91m("[!] Useragent Not Available")
 		tll=input("[+] Please Enter Useragent: ")
 		open("ua","a").write(tll)
 		print("[√] Added Successfully\nGoing To Tools")
